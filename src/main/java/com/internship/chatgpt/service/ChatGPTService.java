@@ -28,6 +28,8 @@ public class ChatGPTService {
     @Autowired
     private QuestionAnswerRepository questionAnswerRepository;
 
+    private QuestionAnswer chat = new QuestionAnswer();
+
     private static final Object[] FILE_HEADER = {"Question", "answer"};
 
 
@@ -57,8 +59,10 @@ public class ChatGPTService {
         Map<String, Object> responseBody = response.getBody();
         List<Map<String, Object>> responseList = (List<Map<String, Object>>) responseBody.get("choices");
         String answer = (String) responseList.get(0).get("text");
-        String question =(String) requestBody.get("prompt");
-        writeToCSVFile(question, answer);
+        writeToCSVFile(prompt, answer);
+        chat.setQuestion(prompt);
+        chat.setAnswer(answer);
+        questionAnswerRepository.save(chat);
         return responseBody;
     }
 

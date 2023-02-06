@@ -1,19 +1,30 @@
 Question;answer
 "{
-  ""prompt"": ""What is gluten sensitivity?""
+""prompt"": ""What is SOA?""
 }","
 
-Answer: Gluten sensitivity, also known as non-celiac gluten sensitivity (NCGS), is a condition that involves a person being sensitive to gluten, a protein found in wheat, barley, and rye. Individuals with gluten sensitivity may experience symptoms like abdominal pain, bloating, diarrhea, and headaches after consuming gluten. Unlike celiac disease, there is no test or biomarker for diagnosing gluten sensitivity. Treatment for this condition typically involves following a strict gluten-free diet and avoiding wheat, barley, and rye."
+
+Answer: Service Oriented Architecture (SOA) is a software design pattern where functionality and data are combined into services that can be accessed remotely over a network. SOA helps organizations quickly and cost-effectively create, re-use, and modify applications that support their business."
 Question;answer
 "{
-  ""prompt"": ""What is SOA?""
+""prompt"": ""What is SOA?""
 }","
 
 
-The acronym SOA stands for Service-Oriented Architecture. It is a method of designing and organizing software systems as autonomous services that communicate with each other, creating a single framework to integrate applications across different organizations. SOA is used to design distributed and decentralized applications, making it easier for businesses to change and integrate legacy systems with new ones."
+Answer: Service-oriented architecture (SOA) is a software architectural pattern that provides services to other applications or end-users. It is a type of distributed system that is made up of components that provide services via a communication protocol. SOA allows applications to become scalable and loosely coupled due to the code sharing enabled by isolation of functionality."
 Question;answer
 "{
-""prompt"": ""What is gluten sensitivity?""
+""prompt"": ""What is SOA?""
 }","
 
-Gluten sensitivity (also known as non-celiac gluten sensitivity) is a medical condition in which people experience unpleasant symptoms after eating food containing gluten, a type of protein found in wheat, barley and rye. Symptoms can range from gastrointestinal distress to headaches, fatigue and skin rashes. Unlike celiac disease, a severe autoimmune disorder, gluten sensitivity does not cause lasting damage to the intestine."
+Answer: SOA stands for Service-Oriented Architecture, which is an architectural pattern in which services are provided to the other components by application components. This pattern is used to divide a complicated software system into smaller, independent components that can communicate with each other using web-based protocols. These services can be reused, composable, and distributed over systems to create new applications."
+Question;answer
+"
+What is SOA?
+","
+SOA stands for Service-Oriented Architecture. It is a software development methodology that defines how different components of an application work together. It is based on service-oriented principles and encourages loosely coupled, reusable components that can be easily combined and used in different applications."
+Question;answer
+"
+What is gluten sensitivity?
+","
+Gluten sensitivity, also sometimes known as non-celiac gluten sensitivity, is a condition in which a person has an adverse reaction to the gluten found in certain grains, including wheat, barley and rye. Symptoms of gluten sensitivity can vary and range from gastrointestinal distress to joint pain, skin rashes and headaches. People with gluten sensitivity are typically able to tolerate small amounts of gluten, but may need to avoid all sources of it to feel their best."
