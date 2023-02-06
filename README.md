@@ -8,12 +8,12 @@ Prerequisites
 
 for running the project :
 
-clone this project via this link : 
+clone this project via this link : https://github.com/hafsafarah/chatGPT_API
 extracte the zip file on your machine
 import the project in an Spring boot IDE like esclipse or intellij 
 
 before to run this project you should :
- - create an account on chatGPT, generate an API KEY and copy it.
+ - create an account on chatGPT, generate an API KEY and copy it via this link : https://beta.openai.com/account/api-keys .
  - go to application.properties file and paste this key  in the variable openai.api_key
  - run the mysql server in Xampp application on your machine
  - then go to  http://localhost/phpmyadmin and create a database with this name "chatgpt".
